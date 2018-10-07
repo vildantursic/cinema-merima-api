@@ -10,7 +10,7 @@ const options = {
   bufferMaxEntries: 0
 };
 
-mongoose.connect('mongodb://localhost/example', options);
+mongoose.connect('mongodb://localhost/theater', options);
 
 const db = mongoose.connection;
 export default db;
