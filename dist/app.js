@@ -32,5 +32,5 @@ app.use('/api/v1/', theater);
 app.use('/api/v1/', movie);
 app.use('/api/v1/', reservation);
 app.use('/api/v1/', food);
-app.listen(3000, () => console.log('W-API listening on port 3000!'));
+app.listen(2222, () => console.log('W-API listening on port 2222!'));
 //# sourceMappingURL=app.js.map
