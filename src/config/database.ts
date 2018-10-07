@@ -10,7 +10,9 @@ const options = {
   bufferMaxEntries: 0
 };
 
-mongoose.connect('mongodb://localhost/theater', options);
+// local: mongodb://localhost/theater
+// production: mongodb://<dbuser>:<dbpassword>@ds125423.mlab.com:25423/cinema-merima
+mongoose.connect('mongodb://merima:test123@ds125423.mlab.com:25423/cinema-merima', options);
 
 const db = mongoose.connection;
 export default db;
